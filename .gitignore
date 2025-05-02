@@ -1,38 +1,36 @@
-# Node.js dependencies
+# Node.js
 node_modules/
+npm-debug.log*
+
+
+# dotenv environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # Logs
 logs
 *.log
-npm-debug.log*
-
-# Environment variables
-.env
-
-# Runtime data
+log.txt
 pids
 *.pid
 *.seed
 *.pid.lock
 
-# Debug files
-*.swp
-*.swo
-*.bak
-
-# Optional npm cache directory
-.npm
-
-# Coverage directory
+# Coverage directory used by testing tools
 coverage/
 
-# OS-specific
+# OS files
 .DS_Store
 Thumbs.db
 
-# IDEs and editors
+# Editor-specific
 .vscode/
 .idea/
+*.swp
 
-# Test output
-test-results/
+# Build output
+dist/
+build/
