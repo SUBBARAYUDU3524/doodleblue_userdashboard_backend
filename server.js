@@ -24,6 +24,10 @@ mongoose
 
 mongoose.set("debug", true);
 
+app.get("/", (req, res) => {
+  res.send("API is running...");
+});
+
 // Routes
 app.use("/api/users", userRoutes);
 
